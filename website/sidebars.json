@@ -1,10 +1,29 @@
-{
-  "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Android SDK": ["Android_Introduction","Android_ApiOverview"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
-  }
-}
+
+
+      {
+        "Android_Introduction": {
+          "Android SDK": [
+            "Android_Introduction","Android_ApiOverview",
+            {
+              "type": "subcategory",
+              "label": "Getting Started",
+              "ids": [
+                "doc3","doc4"]
+            }
+
+          ]
+        }
+     ,
+        "IOS_Introduction": {
+          "IOS SDK": [
+            "IOS_Introduction","IOS_Installation",
+            {
+              "type": "subcategory",
+              "label": "Getting Started",
+              "ids": [
+                "doc1","doc2"]
+            }
+
+          ]
+        }
+      }

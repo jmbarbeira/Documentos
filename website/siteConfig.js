@@ -31,15 +31,15 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'test-site',
-  organizationName: 'facebook',
+  organizationName: 'handpoint',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'Android_Introduction', label: 'Android SDK'},
+    {doc: 'IOS_Introduction', label: 'IOS SDK'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
@@ -50,12 +50,12 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/favicon.ico',
   footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/handpoint-logo-w.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#281173',
-    secondaryColor: '#1c0b50',
+    primaryColor: '#535353',
+    secondaryColor: '#6C7E8F',
   },
 
   /* Custom fonts for website */
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Handpoint`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -81,7 +81,12 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+scripts: [
+  'https://buttons.github.io/buttons.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+  '/js/code-block-buttons.js',
+],
+
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -94,7 +99,7 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
