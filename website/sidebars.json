@@ -2,7 +2,7 @@
   "docs": {
     "Docusaurus": ["doc1"],
     "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Android SDK": ["Android_Introduction","Android_ApiOverview"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
