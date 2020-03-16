@@ -64,9 +64,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('Android_Introduction')}>ANDROID SDK</Button>
+            <Button href={docUrl('IOS_Introduction')}>IOS SDK</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -149,16 +148,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'You can also look at some getting-started sample apps, our SDKs and other fun stuff on the Handpoint GitHub site',
+            image: `${baseUrl}img/GitHub.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'GitHub',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Looking for something? If you have questions about anything not covered in our documentation, need assistance integrating, or are unsure where to go from here, our developer support team is here to help.',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Help & Support',
           },
         ]}
       </Block>

@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Dev', // Title for your website.
+  tagline: 'Handpoint Document site',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -48,9 +48,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/handpoint-logo-w.png',
+  headerIcon: 'img/handpoint-logo-w.png',
+  footerIcon: 'img/favicon.png',
+  favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
